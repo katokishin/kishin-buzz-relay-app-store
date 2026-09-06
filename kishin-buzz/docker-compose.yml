@@ -6,7 +6,7 @@ services:
       gateway:
         condition: service_healthy
     environment:
-      APP_HOST: buzz_gateway_1
+      APP_HOST: kishin-buzz_gateway_1
       APP_PORT: 8080
       # This port is the owner control plane. Umbrel auth remains enabled for
       # every route; public relay clients use the separate 3023 listener below.
