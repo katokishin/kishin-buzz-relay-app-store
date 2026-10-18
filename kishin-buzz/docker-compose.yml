@@ -68,7 +68,7 @@ services:
       start_period: 5s
 
   relay:
-    image: ghcr.io/block/buzz:sha-3a96ace@sha256:535cb1b2f782824423c34d1dc72a210d1f51ccdb13dbc5785d3ef103d2a4d30a
+    image: ghcr.io/block/buzz:sha-3a96ace@sha256:13f8fcd98f2300f6d17c0ee74ee203c88d134f59bfca0e2e65b774c0166c6741
     user: "1000:1000"
     init: true
     restart: on-failure
